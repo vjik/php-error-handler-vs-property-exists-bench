@@ -1,0 +1,24 @@
+{
+    "name": "vjik/php-error-handler-vs-property-exists-bench",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "phpbench/phpbench": "^1.2"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Vjik\\PhpErrorHandlerVsPropertyExistsBench\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergei Predvoditelev",
+            "email": "sergei@predvoditelev.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "sort-packages": true
+    }
+}
